@@ -11,7 +11,7 @@ from audio_pi_codec_service import (decode_wav_to_string, encode_string_to_wav,
 mp.dps = 1000
 pi_digits = str(mp.pi)[2:]  # убираем "3."
 
-# Сколько цифр проверяем (не больше 200 — ограничение WAV)
+# Сколько цифр проверяем ()
 N = 100000000000
 message = pi_digits[:N]
 
